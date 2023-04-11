@@ -1,1 +1,2 @@
  # Odin have 2 son.
+ # Thor and Loki
