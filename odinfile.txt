@@ -1,2 +1,4 @@
  # Odin have 2 son.
  # Thor and Loki
+ # helda is the sister
+ # freya is the mother
