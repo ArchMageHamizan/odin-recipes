@@ -22,6 +22,7 @@
     color: #EEEEEE;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgb(206, 17, 143);
   }
   .div_1 {
     background-color: #548CA8;
@@ -30,3 +31,25 @@
   .div_2 {
     background-color: #476072;
   }
+ .ol_li{
+  padding: 5px 10px 5px 0px;
+ }
+ ol{
+  background-color: rgb(24, 190, 255);
+ }
+
+ .flex_container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1;
+}
+.flex_container {
+  display: flex;
+}
+/*.container_inside{
+  background: rgb(255, 185, 237);
+  border: 4px solid rgb(165, 42, 155);
+  height: 20px;
+  
+}*/
