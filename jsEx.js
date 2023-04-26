@@ -56,7 +56,26 @@ function capitalize (str){
 
   return lowerstr.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
-const mystr="SELAMAT HARI RAYA aidilfitri ";
+function lastletter(str){
+   return str.charAt(str.length-1);
+}
+
+let j = 0;
+let i=0;
+do {
+  console.log(j);
+  j++;  
+} while (j < 5);
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+const mystr="SELAMAT HARI RAYA aidilfitri";
 document.getElementById("demo7").innerHTML =add7(7);
 document.getElementById("demo8").innerHTML =multiply(5,2);
 document.getElementById("demo9").innerHTML =capitalize(mystr);
+document.getElementById("demo10").innerHTML =lastletter(mystr);
+document.getElementById("demo11").innerHTML =j;
+document.getElementById("demo12").innerHTML =i;
